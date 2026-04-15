@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  serverExternalPackages: ['@supabase/ssr', '@supabase/supabase-js'],
+transpilePackages: ['@ai-sdk/react', 'ai'],
 };
 
 export default nextConfig;
